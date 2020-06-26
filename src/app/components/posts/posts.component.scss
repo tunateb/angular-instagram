@@ -1,0 +1,10 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 4fr);
+  grid-gap: 25px;
+}
+
+.post {
+  width: 295px;
+  height: 295px;
+}

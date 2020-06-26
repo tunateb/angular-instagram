@@ -1,0 +1,14 @@
+.mid-nav-links {
+  display: flex;
+  margin: 18px auto;
+  justify-content: center;
+  align-items: center;
+
+  a {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    color: #262626;
+    margin: auto 30px;
+  }
+}

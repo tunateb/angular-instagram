@@ -5,6 +5,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProfileCardComponent } from './components/profile-card/profile-card.component';
+import { PostsComponent } from './components/posts/posts.component';
 
 
 @NgModule({
@@ -12,6 +13,7 @@ import { ProfileCardComponent } from './components/profile-card/profile-card.com
     AppComponent,
     NavbarComponent,
     ProfileCardComponent,
+    PostsComponent,
 
   ],
   imports: [
