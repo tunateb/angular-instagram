@@ -1,5 +1,17 @@
 <div class="container">
   <div class="grid-container">
-    <img [src]="post.src" alt="post" class="post" *ngFor="let post of posts"/>
+    <div *ngFor="let post of posts" class="post-wrapper">
+      <img [src]="post.src" alt="post" class="post" />
+      <div class="hover-content">
+        <p>
+          <button class="icon-btn"><i class="fas fa-heart fa-2x"></i></button>
+          Like
+        </p>
+        <p>
+          <button class="icon-btn"><i class="fas fa-comment fa-2x"></i></button>
+          Comment
+        </p>
+      </div>
+    </div>
   </div>
 </div>

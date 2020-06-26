@@ -4,7 +4,49 @@
   grid-gap: 25px;
 }
 
+.post-wrapper {
+  position: relative;
+}
+
 .post {
+  display: block;
   width: 295px;
   height: 295px;
+  cursor: pointer;
+  opacity: 1;
+  transition: 0.5s ease;
+  backface-visibility: hidden;
+}
+
+.hover-content {
+  opacity: 0;
+  transition: 0.5s ease;
+  font-size: 24px;
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  cursor: pointer;
+
+  p {
+    margin: 5px;
+  }
+}
+
+.post-wrapper:hover .post {
+  opacity: 0.2;
+}
+
+.post-wrapper:hover .hover-content {
+  opacity: 1;
+}
+
+.icon-btn {
+  background-color: transparent;
+  margin-right: 5px;
+  border: none;
+  cursor: pointer;
 }

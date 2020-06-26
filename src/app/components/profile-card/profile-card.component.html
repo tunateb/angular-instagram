@@ -6,7 +6,7 @@
     <div class="profile-showcase">
       <div class="profile-title-wrapper">
         <strong class="profile-name">name</strong>
-        <button class="blue-btn">Follow</button>
+        <button class="blue-btn" (click) = "onFollow()">{{following ? 'Following' : 'Follow'}}</button>
         <button class="blue-btn-sm">
           <i class="fas fa-sort-down"></i>
         </button>
@@ -53,7 +53,5 @@
       <h4>Name</h4>
     </div>
   </section>
-  <div class="container">
-    <hr />
-  </div>
+
 </div>

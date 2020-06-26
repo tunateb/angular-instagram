@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProfileCardComponent implements OnInit {
 
+  following = false;
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  onFollow() {
+    this.following = !this.following;
   }
 
 }

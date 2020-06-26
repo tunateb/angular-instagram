@@ -27,21 +27,31 @@
 }
 
 .blue-btn {
+  cursor: pointer;
   border: none;
   padding: 6px 25px;
   background-color: #4094ef;
   color: #fff;
   margin-right: 8px;
   border-radius: 3px;
+
+  &:hover {
+    background-color: #357dca;
+  }
 }
 
 .blue-btn-sm {
+  cursor: pointer;
   border: none;
   padding: 6px 12px;
   background-color: #4094ef;
   color: #fff;
   margin-right: 16px;
   border-radius: 3px;
+
+  &:hover {
+    background-color: #357dca;
+  }
 }
 
 .stats-section {

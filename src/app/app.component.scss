@@ -1,14 +1,20 @@
 .mid-nav-links {
   display: flex;
-  margin: 18px auto;
   justify-content: center;
   align-items: center;
+  border-top: 1px solid #dbdbdb;
+}
 
-  a {
-    text-decoration: none;
-    font-size: 12px;
-    font-weight: bold;
-    color: #262626;
-    margin: auto 30px;
+.mid-nav-link {
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: bold;
+  color: #262626;
+  margin: auto 30px;
+  padding: 18px;
+  border-top: 1px solid transparent;
+
+  &:hover {
+    border-top: 1px solid #262626;
   }
 }
