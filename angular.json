@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "insta-app"
+    }
+  },
+  "defaultProject": "insta-app",
+  "cli": {
+    "analytics": "abf80e82-c269-4771-9efd-58a6f5463082"
+  }
 }
